@@ -1,0 +1,64 @@
+.tours_section {
+  padding: 50px 0px;
+  background-color: var(--secondaryClr);
+}
+
+.tours_section .imgBox {
+  padding: 0px 12px;
+}
+
+.tours_section .imgBox .card {
+  border: none;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.tours_section .imgBox .card a {
+  border: none;
+}
+
+.tours_section .imgBox .card img {
+  transition: all 0.5s ease 0s;
+  filter: brightness(0.8);
+}
+
+.tours_section .imgBox .card .card-title {
+  position: absolute;
+  top: 5%;
+  left: 3%;
+  font-size: 16px;
+  color: var(--white);
+  line-height: 18px;
+  font-weight: bolder;
+  width: 100%;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+}
+
+.tours_section .imgBox .card .tours {
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
+  font-size: 16px;
+  color: var(--primaryClr);
+  line-height: 18px;
+  font-weight: 600;
+  padding: 6px 15px;
+  background: var(--white);
+  border-radius: 15px;
+  transform: translateX(120%);
+  transition: 0.2s ease-in;
+
+}
+.tours_section .imgBox .card:hover{
+    transition: 0.2s ease-in-out;
+}
+.tours_section .imgBox .card:hover img{
+    filter: brightness(1);
+    transform: scale(1.1);
+}
+.tours_section .imgBox .card:hover .tours{
+    transform: translateY(0);
+
+}
+

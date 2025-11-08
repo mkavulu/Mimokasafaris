@@ -1,0 +1,30 @@
+.primaryBtn{
+  background: var(--primaryClr);
+  padding: 8px 15px;
+  font-size: var(--bodyText);
+  color: var(--white);
+  text-align: center;
+  position: relative;
+  letter-spacing: 0.5px;
+  transition: all 0.2 ease-in-out;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 4px;
+}
+.primaryBtn :hoover{
+transform: translateY(-30px);
+
+}
+
+.main_heading {
+  margin-bottom: 30px;
+
+}
+.main_heading h1{
+  font-size: var(--heading);
+  color: var(--black);
+  font-weight: bold;
+  font-family: var(--fontFamily);
+
+  
+}
